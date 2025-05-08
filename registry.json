@@ -1,0 +1,38 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "v0id-user",
+  "homepage": "https://www.v0id.me",
+  "items": [
+    {
+      "name": "filter",
+      "type": "registry:component",
+      "title": "Filter component",
+      "description": "A simple and flexable modern filter component",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/filter/filter.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/default/filter/filter-builder.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/default/filter/hooks/useFilter.ts",
+          "type": "registry:hook"
+        },
+        {
+          "path": "registry/default/filter/lib/types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/default/filter/lib/styles.ts",
+          "type": "registry:lib"
+        }
+      ]
+    }
+  ]
+}
