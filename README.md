@@ -7,7 +7,8 @@ A shadcn registry set of reusable components I developed for personal projects. 
 This repository contains a collection of custom React components built using shadcn/ui. These components have been developed and refined through various personal projects, and are now available for anyone to use in their own applications.
 
 > [!CAUTION]  
-> These components were built specifically for my use cases and with the assistance of AI. While they are open-sourced, they might not fit perfectly into all projects. All components are in Arabic and support RTL (Right-to-Left) layout by default. If you need English language support or LTR (Left-to-Right) layout, please open an issue, and I'll do my best to help resolve it.
+> These components were tailored for my own projects (with some AI help). They default to Arabic and RTL. If you're using English or LTR, open an issue and I’ll try to help out.
+
 
 ## Getting Started
 
