@@ -1,23 +1,24 @@
-# registry-template
+# Personal Component Registry
 
-You can use the `shadcn` CLI to run your own component registry. Running your own
-component registry allows you to distribute your custom components, hooks, pages, and
-other files to any React project.
+A shadcn registry set of reusable components I developed for personal projects. Open-sourced for anyone who might find them useful.
 
-> [!IMPORTANT]  
-> This template uses Tailwind v3. For Tailwind v4, see [registry-template](https://github.com/shadcn-ui/registry-template-v4).
+## About
+
+This repository contains a collection of custom React components built using shadcn/ui. These components have been developed and refined through various personal projects, and are now available for anyone to use in their own applications.
+
+> [!CAUTION]  
+> These components were built specifically for my use cases and with the assistance of AI. While they are open-sourced, they might not fit perfectly into all projects. If you encounter any issues or need adjustments, please feel free to open an issue, and I'll do my best to help resolve it.
 
 ## Getting Started
 
-This is a template for creating a custom registry using Next.js.
+Visit the [shadcn documentation](https://ui.shadcn.com/docs/registry) to learn how to use these components in your project.
 
-- The template uses a `registry.json` file to define components and their files.
-- The `shadcn build` command is used to build the registry.
-- The registry items are served as static files under `public/r/[name].json`.
-- The template also includes a route handler for serving registry items.
-- Every registry item are compatible with the `shadcn` CLI.
-- We have also added v0 integration using the `Open in v0` api.
+## Connect With Me
 
-## Documentation
+- GitHub: [@v0id_user](https://github.com/v0id_user)
+- Twitter: [@v0id_user](https://twitter.com/v0id_user)
+- LinkedIn: [@v0id-user](https://linkedin.com/in/v0id-user)
 
-Visit the [shadcn documentation](https://ui.shadcn.com/docs/registry) to view the full documentation.
+## License
+
+MIT License - feel free to use these components in your projects!
