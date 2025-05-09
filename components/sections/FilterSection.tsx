@@ -5,6 +5,7 @@ import Filter from "@/registry/default/filter/filter";
 import { FilterOption, FilterCriteria } from "@/registry/default/filter/lib/types";
 import { SectionLayout } from "@/components/ui/section-layout";
 import { useState } from "react";
+import { DownloadComponent } from "@/components/download-component";
 const codeExampleString = `import { UserIcon } from "lucide-react";
 import Filter from "@/registry/default/filter/filter";
 
@@ -24,11 +25,20 @@ const filterOptions = [
   }
 ];
 
+const handleFilterChange = (filters: FilterCriteria[]) => {
+  console.log("Filters changed:", filters);
+  const urlParams = filters.map(filter => {
+    const { type, condition, value } = filter;
+    return \`\${type}=\${condition}:\${value}\`;
+  }).join("&");
+  console.log(urlParams);
+};
+
 export default function FilterExample() {
   return (
     <Filter 
       options={filterOptions} 
-      onFilterChange={(filters) => console.log(filters)}
+      onFilterChange={handleFilterChange}
       className="mb-8"
     />
   );
@@ -118,6 +128,7 @@ const FilterSection = () => {
         className="mb-8"
       />
       <span>{filterOutPutUrl}</span>
+      <DownloadComponent componentName="filter" />
     </SectionLayout>
   );
 };
