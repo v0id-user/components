@@ -17,10 +17,6 @@
           "type": "registry:component"
         },
         {
-          "path": "registry/default/filter/filter-builder.ts",
-          "type": "registry:lib"
-        },
-        {
           "path": "registry/default/filter/hooks/useFilter.ts",
           "type": "registry:hook"
         },
