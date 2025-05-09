@@ -20,7 +20,7 @@ const ibmPlexArabic = IBM_Plex_Sans_Arabic({
 });
 
 export const metadata: Metadata = {
-  title: "#V0ID",
+  title: "#V0ID - مكونات",
   description: "مجموعة من المكونات القابلة لإعادة الاستخدام من سجل shadcn قمت بتطويرها لمشاريعي الشخصية. متاحة كمصدر مفتوح لأي شخص قد يجدها مفيدة",
 };
 
