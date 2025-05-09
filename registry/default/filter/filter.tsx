@@ -3,9 +3,9 @@
 import React, { useRef, useEffect } from 'react';
 import { SlidersHorizontal, X, ChevronDown, Plus } from "lucide-react";
 import { createPortal } from "react-dom";
-import { FilterProps, FilterCriteria, FilterType, FilterCondition, FilterOption } from "@/registry/default/filter/lib/types";
+import { FilterProps, FilterCriteria, FilterType, FilterCondition, FilterOption } from "@/registry/default/filter/lib/filter-types";
 import { useFilter } from "@/registry/default/filter/hooks/useFilter";
-import { filterBlockStyles } from "@/registry/default/filter/lib/styles";
+import { filterBlockStyles } from "@/registry/default/filter/lib/filter-styles";
 
 const animationStyles = {
     dropdownContainer: "animate-[slideIn_0.2s_ease-out_forwards]",

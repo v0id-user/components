@@ -25,11 +25,11 @@
           "type": "registry:hook"
         },
         {
-          "path": "registry/default/filter/lib/types.ts",
+          "path": "registry/default/filter/lib/filter-types.ts",
           "type": "registry:lib"
         },
         {
-          "path": "registry/default/filter/lib/styles.ts",
+          "path": "registry/default/filter/lib/filter-styles.ts",
           "type": "registry:lib"
         }
       ]

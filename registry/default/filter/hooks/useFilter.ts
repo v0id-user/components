@@ -1,5 +1,5 @@
 import { useState, useRef, useCallback } from 'react';
-import { FilterType, FilterCondition, FilterCriteria, FilterStatus } from '@/registry/default/filter/lib/types';
+import { FilterType, FilterCondition, FilterCriteria, FilterStatus } from '@/registry/default/filter/lib/filter-types';
 
 interface UseFilterOptions {
     autoOpenDropdown?: boolean;

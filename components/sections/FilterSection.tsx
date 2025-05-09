@@ -2,7 +2,7 @@
 
 import { UserIcon, FileText, Calendar, CreditCard } from "lucide-react";
 import Filter from "@/registry/default/filter/filter";
-import { FilterOption, FilterCriteria } from "@/registry/default/filter/lib/types";
+import { FilterOption, FilterCriteria } from "@/registry/default/filter/lib/filter-types";
 import { SectionLayout } from "@/components/ui/section-layout";
 import { useState } from "react";
 import { DownloadComponent } from "@/components/download-component";
