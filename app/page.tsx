@@ -22,18 +22,8 @@ const Index = () => {
     switch (activeSection) {
       case "introduction":
         return <IntroductionSection />;
-      case "installation":
-        return <InstallationSection />;
-      case "usage":
-        return <UsageExamplesSection />;
       case "components":
         return <ComponentsSection />;
-      case "buttons":
-        return <ButtonsSection />;
-      case "inputs":
-        return <InputsSection />;
-      case "tabs":
-        return <TabsSection />;
       case "filter":
         return <FilterSection />;
       default:

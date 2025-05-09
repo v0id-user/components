@@ -31,16 +31,11 @@ const Sidebar = ({ activeSection, onSectionChange }: SidebarProps) => {
 
   const mainMenuItems: { id: Section; title: string; hasChildren?: boolean; children?: { id: Section; title: string }[] }[] = [
     { id: "introduction", title: "مقدمة" },
-    { id: "installation", title: "التثبيت" },
-    { id: "usage", title: "الاستخدام" },
     { 
       id: "components", 
       title: "المكونات", 
       hasChildren: true,
       children: [
-        { id: "buttons", title: "الأزرار" },
-        { id: "inputs", title: "حقول الإدخال" },
-        { id: "tabs", title: "التبويبات" },
         { id: "filter", title: "التصفية" }
       ] 
     },
@@ -50,8 +45,8 @@ const Sidebar = ({ activeSection, onSectionChange }: SidebarProps) => {
     <ShadcnSidebar side="right" className="border-l">
       <SidebarContent className="pt-6">
         <div className="px-4 mb-6">
-          <h2 className="text-lg font-semibold text-primary">مكتبة عربي</h2>
-          <p className="text-xs text-muted-foreground">مكونات واجهة المستخدم للتطبيقات العربية</p>
+          <h2 className="text-lg font-semibold text-primary">#V0ID</h2>
+          <p className="text-xs text-muted-foreground">مجموعة من المكونات القابلة لإعادة الاستخدام من سجل shadcn قمت بتطويرها لمشاريعي الشخصية. متاحة كمصدر مفتوح لأي شخص قد يجدها مفيدة</p>
         </div>
         <SidebarSeparator className="mb-4" />
         
