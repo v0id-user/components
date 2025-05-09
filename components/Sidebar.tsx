@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/sidebar";
 import { ChevronDown, ChevronUp } from "lucide-react";
 
-type Section = "introduction" | "installation" | "usage" | "components" | "buttons" | "inputs" | "tabs";
+type Section = "introduction" | "installation" | "usage" | "components" | "buttons" | "inputs" | "tabs" | "filter";
 
 interface SidebarProps {
   activeSection: Section;
@@ -40,7 +40,8 @@ const Sidebar = ({ activeSection, onSectionChange }: SidebarProps) => {
       children: [
         { id: "buttons", title: "الأزرار" },
         { id: "inputs", title: "حقول الإدخال" },
-        { id: "tabs", title: "التبويبات" }
+        { id: "tabs", title: "التبويبات" },
+        { id: "filter", title: "التصفية" }
       ] 
     },
   ];

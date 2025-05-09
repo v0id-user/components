@@ -11,8 +11,9 @@ import ComponentsSection from "@/components/sections/ComponentsSection";
 import ButtonsSection from "@/components/sections/ButtonsSection";
 import InputsSection from "@/components/sections/InputsSection";
 import TabsSection from "@/components/sections/TabsSection";
+import FilterSection from "@/components/sections/FilterSection";
 
-type Section = "introduction" | "installation" | "usage" | "components" | "buttons" | "inputs" | "tabs";
+type Section = "introduction" | "installation" | "usage" | "components" | "buttons" | "inputs" | "tabs" | "filter";
 
 const Index = () => {
   const [activeSection, setActiveSection] = useState<Section>("introduction");
@@ -33,6 +34,8 @@ const Index = () => {
         return <InputsSection />;
       case "tabs":
         return <TabsSection />;
+      case "filter":
+        return <FilterSection />;
       default:
         return <IntroductionSection />;
     }

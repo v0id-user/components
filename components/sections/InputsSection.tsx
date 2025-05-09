@@ -1,30 +1,30 @@
-
 import { Input } from "@/components/ui/input";
+import { SectionLayout } from "@/components/ui/section-layout";
 
 const InputsSection = () => {
+  const inputExamples = (
+    <div className="flex flex-col gap-4 max-w-xs">
+      <Input placeholder="حقل نصي بسيط" />
+      <Input placeholder="البريد الإلكتروني" type="email" />
+      <Input placeholder="كلمة المرور" type="password" />
+      <Input placeholder="رقم الهاتف" type="tel" />
+      <Input placeholder="قيمة رقمية" type="number" />
+    </div>
+  );
+
   return (
-    <section className="py-8">
-      <h2 className="section-title">حقول الإدخال</h2>
-      
-      <div className="card-body">
-        <h3 className="text-lg font-semibold mb-4">أنواع حقول الإدخال</h3>
-        <div className="flex flex-col gap-4 max-w-xs">
-          <Input placeholder="حقل نصي بسيط" />
-          <Input placeholder="البريد الإلكتروني" type="email" />
-          <Input placeholder="كلمة المرور" type="password" />
-          <Input placeholder="رقم الهاتف" type="tel" />
-          <Input placeholder="قيمة رقمية" type="number" />
-        </div>
-        
-        <div className="code-block mt-6">
-{`<Input placeholder="حقل نصي بسيط" />
+    <SectionLayout
+      title="حقول الإدخال"
+      subtitle="أنواع حقول الإدخال"
+      description="حقول الإدخال المختلفة تتيح للمستخدم إدخال البيانات بأشكال متنوعة مثل النصوص والأرقام والبريد الإلكتروني وكلمات المرور."
+      codeExample={`<Input placeholder="حقل نصي بسيط" />
 <Input placeholder="البريد الإلكتروني" type="email" />
 <Input placeholder="كلمة المرور" type="password" />
 <Input placeholder="رقم الهاتف" type="tel" />
 <Input placeholder="قيمة رقمية" type="number" />`}
-        </div>
-      </div>
-    </section>
+    >
+      {inputExamples}
+    </SectionLayout>
   );
 };
 
