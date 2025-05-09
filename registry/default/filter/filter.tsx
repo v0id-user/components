@@ -238,7 +238,7 @@ const ActiveFilter: React.FC<ActiveFilterProps> = ({
                             e.stopPropagation();
                             onRemove();
                         }}
-                        className="text-gray-400 hover:text-red-500 opacity-0 group-hover:opacity-100 transition-opacity mr-1"
+                        className="cursor-pointer text-gray-400 hover:text-red-500 opacity-85 group-hover:opacity-100 transition-opacity mr-1"
                     >
                         <X className="w-3 h-3" />
                     </button>
