@@ -5,12 +5,7 @@ import { SidebarProvider } from "@/components/ui/sidebar";
 import GrainOverlay from "@/components/GrainOverlay";
 import Sidebar from "@/components/Sidebar";
 import IntroductionSection from "@/components/sections/IntroductionSection";
-import InstallationSection from "@/components/InstallationSection";
-import UsageExamplesSection from "@/components/UsageExamplesSection";
 import ComponentsSection from "@/components/sections/ComponentsSection";
-import ButtonsSection from "@/components/sections/ButtonsSection";
-import InputsSection from "@/components/sections/InputsSection";
-import TabsSection from "@/components/sections/TabsSection";
 import FilterSection from "@/components/sections/FilterSection";
 
 type Section = "introduction" | "installation" | "usage" | "components" | "buttons" | "inputs" | "tabs" | "filter";
