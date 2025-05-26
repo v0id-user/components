@@ -7,7 +7,7 @@ import { SectionLayout } from "@/components/ui/section-layout";
 import { useState } from "react";
 import { DownloadComponent } from "@/components/download-component";
 const codeExampleString = `import { UserIcon } from "lucide-react";
-import Filter from "@/registry/default/filter/filter";
+import Filter from "@/components/filter";
 
 const filterOptions = [
   {
