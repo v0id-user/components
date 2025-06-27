@@ -1,7 +1,11 @@
 # Personal Component Registry
 
 A shadcn registry set of reusable components I developed for personal projects. Open-sourced for anyone who might find them useful.
+<div align="center">
 
+[![MADE BY #V0ID](https://img.shields.io/badge/MADE%20BY%20%23V0ID-F3EEE1.svg?style=for-the-badge)](https://github.com/v0id-user)
+
+</div>
 ## About
 
 This repository contains a collection of custom React components built using shadcn/ui. These components have been developed and refined through various personal projects, and are now available for anyone to use in their own applications.
